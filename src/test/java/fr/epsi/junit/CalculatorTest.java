@@ -14,7 +14,7 @@ public class CalculatorTest {
         //TODO
 
     }
-
+    @Test
     public void should_add_two_numbers(){
         Scanner sca = new Scanner(System.in);
         System.out.println("Veuillez saisir un nombre a :");
@@ -24,7 +24,7 @@ public class CalculatorTest {
         int b = scb.nextInt();
        // TODO
     }
-
+    @Test
     public void should_substract_two_numbers(){
 
         // TODO
