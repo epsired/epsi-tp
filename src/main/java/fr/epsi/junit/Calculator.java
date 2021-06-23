@@ -10,15 +10,17 @@ public class Calculator {
         return a * b;
     }
 
-    public int substract(int a, int b){
-        return a / b;
-    }
+    public int substract(int a, int b){ return a - b; }
 
     public int div(int a, int b){
         return a/b;
     }
 
     public int add(int[] nmbers){
-        return 0;
+        int result = 0;
+        for(int i=0; i<nmbers.length; i++){
+            result = result + nmbers[i];
+        }
+        return result;
     }
 }
